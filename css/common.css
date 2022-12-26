@@ -1,0 +1,33 @@
+:root{
+    --tale: #2Ec1ac;
+    --tale_hover: #279e8c;
+}
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+.h-font {
+    font-family: 'Merienda', cursive;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.custom-bg {
+    background-color: var(--tale);
+}
+
+.custom-bg:hover {
+    background-color: var(--tale_hover);
+}
+
+.h-line{
+    width: 150px;
+    margin: 0 auto;
+    height: 1.7px;
+}
+
+
